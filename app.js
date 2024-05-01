@@ -4,7 +4,6 @@ const path = require('path')
 const userModel = require('./models/user');
 
 
-console.log(chalk.blue('Hello world!'));
 app.set('view engine', 'ejs');
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
